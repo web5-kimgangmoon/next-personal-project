@@ -3,7 +3,7 @@ name: Deploy Project
 on:
   push:
     branches:
-      - deploy_vercel
+      - main
 jobs:
   deploy_back:
     runs-on: ubuntu-latest
